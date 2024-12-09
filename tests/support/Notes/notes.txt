@@ -1,0 +1,17 @@
+            
+    // Exemplos de locators em Playwright
+    
+    //const target = page.locator('div[class*="listItem"]')
+    //const target = page.locator('.task-item')
+    //const target = page.getByTestId('task-item')
+    
+    // Formas de input data dinamicos 
+
+    //await inputTaskName.fill(faker.lorem.paragraph())
+    //await inputTaskName.fill(faker.lorem.words())
+
+    // Formas de submeter um formulario
+
+    //await page.click('xpath=//button[contains(text(), "Create")]')
+    //await inputTaskName.press('Enter')
+    //await page.fill('input[class*=InputNewTask]', 'Ler um livro de TypeScript')
